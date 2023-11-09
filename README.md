@@ -1,4 +1,4 @@
-# Mindustry Java Mod Template
+# Communistry 2
 [OG communistry found here (its kinda bad)](https://github.com/Delta-Airlines-ig/Communistry)
 
 this mod is also using [this cursed mod](https://github.com/helpll/helplinedustry) for its items and machines (this mod is kinda just a dlc to helplinedustry)
