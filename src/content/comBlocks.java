@@ -42,7 +42,7 @@ import mindustry.world.consumers.*;
 import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 import mindustry.content.*;
-import idk.content.*;
+import Communistry.content.*;
 //import idk.world.blocks.storage.*;
 
 //import static idk.content.EarthLiquids.*;
