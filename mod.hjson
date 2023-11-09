@@ -1,17 +1,17 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "Communistry 2"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "Communistry2"
 
 #your name
-author: "You"
+author: "DeltaV"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "example.CommunistryJavaMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "Communistry's successor, redoes everythng the old mod did, while keeping everything neater and cleaner"
 
 #the mod version
 version: 1.0
