@@ -45,8 +45,8 @@ import mindustry.content.*;
 import idk.content.*;
 //import idk.world.blocks.storage.*;
 
-import static idk.content.EarthLiquids.*;
-import static idk.content.EarthUnitTypes.*;
+//import static idk.content.EarthLiquids.*;
+//import static idk.content.EarthUnitTypes.*;
 import static mindustry.Vars.*;
 import static mindustry.type.ItemStack.*;
 import static arc.graphics.g2d.Draw.rect;
@@ -55,7 +55,7 @@ import static arc.graphics.g2d.Lines.*;
 import static arc.math.Angles.*;
 
 @SuppressWarnings("deprecation")
-public class EarthBlocks{
+public class comBlocks{
     //general (we dont need no enviroment or anything like that 'round here)
     
     //public static Block ; 
