@@ -1,5 +1,8 @@
 # Mindustry Java Mod Template
-A Java Mindustry mod template that works on Android and PC. The Kotlin version of this mod can be seen [here](https://github.com/Anuken/MindustryKotlinModTemplate).
+[OG communistry found here (its kinda bad)](https://github.com/Delta-Airlines-ig/Communistry)
+
+this mod is also using [this cursed mod](https://github.com/helpll/helplinedustry) for its items and machines (this mod is kinda just a dlc to helplinedustry)
+remember that you also need [helplinedustry's dependancies](https://github.com/liplum/MultiCrafterLib/releases/tag/v1.7) too!
 
 ## Building for Desktop Testing
 
