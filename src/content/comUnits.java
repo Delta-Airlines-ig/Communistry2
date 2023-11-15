@@ -9,6 +9,7 @@ import arc.struct.*;
 import arc.util.*;
 import mindustry.ai.*;
 import mindustry.ai.types.*;
+import mindustry.content.Fx.*;
 //import mindustry.annotations;
 import mindustry.entities.*;
 import mindustry.entities.abilities.*;
@@ -61,7 +62,7 @@ public static void load() {
 
             weapons.add(new Weapon("T-34-weapon"){{
                 layerOffset = 0.0001f;
-		damage = 48f;
+		
                 reload = 50f;
                 shootY = 4.5f;
                 recoil = 1f;
@@ -81,6 +82,7 @@ public static void load() {
                     shootEffect = Fx.shootBigColor;
 			hitColor = Color.valueOf("feb380");
                 	hitEffect = endEffect = Fx.hitBulletColor;
+			damage = 48f;
                     //width = 5f;
                    // height = 7f;
                  //   lifetime = 40f;
