@@ -1,4 +1,4 @@
-package idk.content;
+package Communistry.content;
 
 import arc.graphics.*;
 import arc.graphics.g2d.*;
@@ -31,7 +31,7 @@ import static arc.math.Angles.*;
 import static mindustry.Vars.*;
 
 
-public class EarthUnitTypes{
+public class comUnits{
 
 //L = light, M = medium, H = heavy, C = chasis, W = weapon, A = armoured, ex: MCLWA = medium chasis, light weapon, armoured
 //LW = normal cannon, MW = laser cannon, HW = guided missile launcher
