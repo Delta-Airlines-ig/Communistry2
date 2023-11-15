@@ -61,10 +61,12 @@ public static void load() {
 
             weapons.add(new Weapon("T-34-weapon"){{
                 layerOffset = 0.0001f;
+		damage = 48f;
                 reload = 50f;
                 shootY = 4.5f;
                 recoil = 1f;
                 rotate = true;
+		
                 rotateSpeed = 2.2f;
                 mirror = false;
                 x = 0f;
@@ -72,14 +74,16 @@ public static void load() {
                 heatColor = Color.valueOf("f9350f");
                 cooldownTime = 30f;
 
-                bullet = new RailBulletType(4f, 40){{
+                bullet = new RailBulletType(){{
                     //sprite = "missile-large";
                     lineEffect = Fx.shootBigSmoke;
                     smokeEffect = Fx.shootBigSmoke;
                     shootEffect = Fx.shootBigColor;
-                    width = 5f;
-                    height = 7f;
-                    lifetime = 40f;
+			hitColor = Color.valueOf("feb380");
+                	hitEffect = endEffect = Fx.hitBulletColor;
+                    //width = 5f;
+                   // height = 7f;
+                 //   lifetime = 40f;
                   length = 100f;
                    // hitSize = 4f;
                    // hitColor = backColor = trailColor = Color.valueOf("feb380");
