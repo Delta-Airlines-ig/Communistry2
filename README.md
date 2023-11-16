@@ -26,17 +26,22 @@ the above loop will also run once for weapon type (eg. pistol, shotgun, etc)
 other ideas (not in order):  
 add ammo counts  
 reloading  
+add more bullet types(eg. plasma bullet, missile bullet, basic bullet, fire bullet, etc..)  
+random weapons  
 make gui better  
+better particle fx  
 improve graphics and sound  
+make all sprites solid white/black to make in-editor coloring easier  
 building (??)  
 make actual waves and randomly spawning enemies  
 dungeons can be made later to replace waves  
-improve enemy ai (additionally make it work by finding closest (or best) player)  
+improve enemy ai (additionally make it work by finding closest (or strongest) player)  
 stop errors from happening due to player dying  
-add more enemy types  
+add more enemy types(eg. fast enemy, shotgun enemy, turret enemy, boss, etc.)    
 explosive boxes  
 move build folder to not be in the same folder as assets  
 main menu  
+difficulty selector  
 multiplayer (would be cool but idk how i would do that)  
 make 2 weapon slots that you can switch between  
 powerups (eg. +50% movement, +25% shootspeed, etc.)  
