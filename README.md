@@ -35,6 +35,7 @@ make all sprites solid white/black to make in-editor coloring easier
 building (??)  
 make actual waves and randomly spawning enemies  
 dungeons can be made later to replace waves  
+add coin drops from enemies that can be spent in the dungeon for whatever upgrades  
 improve enemy ai (additionally make it work by finding closest (or strongest) player)  
 stop errors from happening due to player dying  
 add more enemy types(eg. fast enemy, shotgun enemy, turret enemy, boss, etc.)    
