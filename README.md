@@ -4,10 +4,46 @@
 this mod is also using [this cursed mod](https://github.com/helpll/helplinedustry) for its items and machines (this mod is kinda just a dlc to helplinedustry)  
 remember that you also need [helplinedustry's dependancies](https://github.com/liplum/MultiCrafterLib/releases/tag/v1.7) too!
 
-idea for innacuracy:
+idea for innacuracy:  
 convert quartion to float for angle like with player rotation  
 set bullet rotation to the angle with slight error  
 move bullet new vector2(mathf.sin(bullet rotation) * fireforce, mathf.cos(bullet rotation) * fireforce)  
+
+weapons will work like this:  
+add a variable of type weaponpickup (or something along those lines)  
+when touching weaponpickup sprite, set weapon pickup to the gameobject attached to the sprite  
+use getters/setters to transfer over data from weaponpickup  
+
+randomisation works like this:  
+list of strings in weaponpickup  
+strings are avaible attributes (and theres more lists for weapon types)  
+for loop some amount of times and add random string from avStrings to usedStrings list  
+delete the item at said index in avStrings  
+a bunch of if, elses will set attributes to actual numbers in variables inside the code   
+getters to output the variables  
+the above loop will also run once for weapon type (eg. pistol, shotgun, etc)  
+
+other ideas (not in order):  
+add ammo counts  
+reloading  
+make gui better  
+improve graphics and sound  
+building (??)  
+make actual waves and randomly spawning enemies  
+dungeons can be made later to replace waves  
+improve enemy ai (additionally make it work by finding closest (or best) player)  
+stop errors from happening due to player dying  
+add more enemy types  
+explosive boxes  
+move build folder to not be in the same folder as assets  
+main menu  
+multiplayer (would be cool but idk how i would do that)  
+make 2 weapon slots that you can switch between  
+powerups (eg. +50% movement, +25% shootspeed, etc.)  
+abilities (?)  
+make up a name for the game  
+distribute on itch (maybe?)  
+
 
 ## Building for Desktop Testing
 
