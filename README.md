@@ -4,11 +4,7 @@
 this mod is also using [this cursed mod](https://github.com/helpll/helplinedustry) for its items and machines (this mod is kinda just a dlc to helplinedustry)  
 remember that you also need [helplinedustry's dependancies](https://github.com/liplum/MultiCrafterLib/releases/tag/v1.7) too!
 
-idea for innacuracy:  
-convert quartion to float for angle like with player rotation  
-set bullet rotation to the angle with slight error  
-move bullet new vector2(mathf.sin(bullet rotation) * fireforce, mathf.cos(bullet rotation) * fireforce)  
-
+ 
 weapons will work like this:  
 add a variable of type weaponpickup (or something along those lines)  
 when touching weaponpickup sprite, set weapon pickup to the gameobject attached to the sprite  
