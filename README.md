@@ -32,6 +32,7 @@ make gui better
 better particle fx  
 improve graphics and sound  
 make all sprites solid white/black to make in-editor coloring easier  
+ammo pickups from enemies or just on the ground  
 building (??)  
 make actual waves and randomly spawning enemies  
 dungeons can be made later to replace waves  
