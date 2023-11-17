@@ -4,6 +4,9 @@
 this mod is also using [this cursed mod](https://github.com/helpll/helplinedustry) for its items and machines (this mod is kinda just a dlc to helplinedustry)  
 remember that you also need [helplinedustry's dependancies](https://github.com/liplum/MultiCrafterLib/releases/tag/v1.7) too!
 
+
+maybe instead of weappn pickups, you can make a gun using exp or smtn.
+also instead of crawling though dungeons, you instead build up a base that you defend
  
 weapons will work like this:  
 add a variable of type weaponpickup (or something along those lines)  
